@@ -11,7 +11,7 @@ string mixText(string str1,string str2){
 		int i=0;
 
 		while (i<str1.size()){
-			cout << str1[i] << str2[i];
+			mix = mix+str1[i]+str2[i];
 			i++;
 			
 		}
